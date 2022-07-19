@@ -1,8 +1,14 @@
+import SearchForm from './SearchForm';
+import Buttons from './Buttons';
+import Stories from './Stories';
+
 function App() {
   return (
-    <div>
-      <h2>Hacker News Starter</h2>
-    </div>
+    <>
+      <SearchForm />
+      <Buttons />
+      <Stories />
+    </>
   );
 }
 
